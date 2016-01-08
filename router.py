@@ -20,7 +20,7 @@
                         >>>print router.get('/hello/world')
                         Out: (<function hello at 0x0000000007BE9128>, {'name': 'world'})
 
-    or get the path with whe registered function:
+    or get the path with the registered function:
 
                         >>>print router.url_for(hello, name='world')
                         Out: /hello/world
